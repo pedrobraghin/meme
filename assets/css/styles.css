@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+video {
+  object-fit: contain;
+  display: none;
+}
+
+video.show {
+  display: flex;
+}
+
+h1 {
+  color: #fff
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+button:hover {
+  opacity: 0.8;
+}
